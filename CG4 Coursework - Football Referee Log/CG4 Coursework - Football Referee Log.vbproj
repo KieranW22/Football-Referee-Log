@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A0FE8836-9F25-46FA-A053-86F6D463787A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CG4_Coursework___Football_Referee_Log.My.MyApplication</StartupObject>
+    <RootNamespace>CG4_Coursework___Football_Referee_Log</RootNamespace>
+    <AssemblyName>CG4 Coursework - Football Referee Log</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>/publish/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>en-GB</TargetCulture>
+    <ProductName>Football Referee Log</ProductName>
+    <PublisherName>Kieran Widdowson</PublisherName>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CG4 Coursework - Football Referee Log.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CG4 Coursework - Football Referee Log.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>CardsandWhistle.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7C64B39B11BFA7C33C29C53E3053E46D669984D1</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CG4 Coursework - Referee Log_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAddContact.Designer.vb">
+      <DependentUpon>frmAddContact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddContact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddExpense.Designer.vb">
+      <DependentUpon>frmAddExpense.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddExpense.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddReport.Designer.vb">
+      <DependentUpon>frmAddReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddressBook.Designer.vb">
+      <DependentUpon>frmAddressBook.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddressBook.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteContact.Designer.vb">
+      <DependentUpon>frmDeleteContact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteContact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteExpense.Designer.vb">
+      <DependentUpon>frmDeleteExpense.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteExpense.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteMatchDetails.Designer.vb">
+      <DependentUpon>frmDeleteMatchDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteMatchDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteReport.Designer.vb">
+      <DependentUpon>frmDeleteReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditContact.Designer.vb">
+      <DependentUpon>frmEditContact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditContact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditExpense.Designer.vb">
+      <DependentUpon>frmEditExpense.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditExpense.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditMatchDetails.Designer.vb">
+      <DependentUpon>frmEditMatchDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditMatchDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditReport.Designer.vb">
+      <DependentUpon>frmEditReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmailReport.Designer.vb">
+      <DependentUpon>frmEmailReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmailReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddMatchDetails.Designer.vb">
+      <DependentUpon>frmAddMatchDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddMatchDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBackScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBackScreen.Designer.vb">
+      <DependentUpon>frmBackScreen.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainMenu.Designer.vb">
+      <DependentUpon>frmMainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewExpenses.Designer.vb">
+      <DependentUpon>frmViewExpenses.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewExpenses.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewMatchDetails.Designer.vb">
+      <DependentUpon>frmViewMatchDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewMatchDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewReports.Designer.vb">
+      <DependentUpon>frmViewReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frmPersonalDetails.Designer.vb">
+      <DependentUpon>frmPersonalDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPersonalDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAddContact.resx">
+      <DependentUpon>frmAddContact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddExpense.resx">
+      <DependentUpon>frmAddExpense.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddReport.resx">
+      <DependentUpon>frmAddReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddressBook.resx">
+      <DependentUpon>frmAddressBook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteContact.resx">
+      <DependentUpon>frmDeleteContact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteExpense.resx">
+      <DependentUpon>frmDeleteExpense.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteMatchDetails.resx">
+      <DependentUpon>frmDeleteMatchDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteReport.resx">
+      <DependentUpon>frmDeleteReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditContact.resx">
+      <DependentUpon>frmEditContact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditExpense.resx">
+      <DependentUpon>frmEditExpense.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditMatchDetails.resx">
+      <DependentUpon>frmEditMatchDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditReport.resx">
+      <DependentUpon>frmEditReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmailReport.resx">
+      <DependentUpon>frmEmailReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddMatchDetails.resx">
+      <DependentUpon>frmAddMatchDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBackScreen.resx">
+      <DependentUpon>frmBackScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainMenu.resx">
+      <DependentUpon>frmMainMenu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewExpenses.resx">
+      <DependentUpon>frmViewExpenses.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewMatchDetails.resx">
+      <DependentUpon>frmViewMatchDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewReports.resx">
+      <DependentUpon>frmViewReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPersonalDetails.resx">
+      <DependentUpon>frmPersonalDetails.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CardsandWhistle.ico" />
+    <None Include="Windows-Close-Program-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
